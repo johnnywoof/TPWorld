@@ -1,0 +1,14 @@
+name: TPWorld
+version: 1.0
+main: me.johnnywoof.tpworld.TPWorld
+description: Allows you to teleport between different worlds.
+database: false
+author: Johnnywoof
+website: https://github.com/johnnywoof/TPWorld
+softdepend: [DimensionDoor, Multiverse-Core, MultiVerse, WorldManager, xcore]
+commands:
+  tpworld:
+    description: Teleports between different worlds
+    aliases: [tpw]
+    permission: tpworld.teleport
+    usage: /tpworld <world name>
